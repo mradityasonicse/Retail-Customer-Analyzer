@@ -36,15 +36,21 @@ A standalone, console-based Python 3 retail customer analytics project developed
 ## 📂 Project Structure
 
 ```text
-E:\Retail Customer Analyzer\
+Retail Customer Analyzer/
 │
-├── retail_customer_analyzer.py  # Standalone single-file solution (Requirement 1)
-├── main.py                      # Application launcher
-├── customers.csv                # Primary customer dataset (8 records)
-├── requirements.txt             # Project dependencies (pandas)
-├── .gitignore                   # Git ignore file
-├── README.md                    # Project documentation
-└── PROJECT_REPORT.md            # Academic project report
+├── retail_customer_analyzer.py      # Standalone single-file solution (Requirement 1)
+├── main.py                          # Application launcher
+├── customers.csv                    # Primary customer dataset (8 records)
+├── summary.md                       # Comprehensive summary and test report
+├── problem_statement.jpeg           # Official problem statement reference
+├── test_case_1_terminal.png         # Terminal screenshot for Test Case 1
+├── test_case_2_terminal.png         # Terminal screenshot for Test Case 2
+├── test_case_3_terminal.png         # Terminal screenshot for Test Case 3
+├── test_case_4_terminal.png         # Terminal screenshot for Test Case 4
+├── terminal_all_testcases.png       # Complete terminal session screenshot
+├── requirements.txt                 # Project dependencies (pandas, numpy, matplotlib)
+├── .gitignore                       # Git ignore file
+└── README.md                        # Project documentation
 ```
 
 ---
@@ -124,11 +130,17 @@ Durg : Total Rs. 14200 | Average Rs. 4733.33
 1. Open PowerShell or Command Prompt.
 2. Navigate to the project directory:
    ```bash
-   cd "E:\Retail Customer Analyzer"
+   cd "Retail---Customer-Analyzer"
    ```
-3. Run the Python file:
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Run the Python file:
    ```bash
    python retail_customer_analyzer.py
    ```
    *(or run `python main.py`)*
-4. Select options `1`, `2`, `3`, or `4` from the interactive console menu.
+5. Select options `1`, `2`, `3`, or `4` from the interactive console menu.
+
+See [summary.md](summary.md) for full test case verification and screenshots.
